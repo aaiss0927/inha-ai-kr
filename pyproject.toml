@@ -9,7 +9,11 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "fastapi (>=0.115.13,<0.116.0)",
-    "uvicorn[standard] (>=0.34.3,<0.35.0)"
+    "uvicorn[standard] (>=0.34.3,<0.35.0)",
+    "py-ulid (>=1.0.3,<2.0.0)",
+    "passlib[bcrypt] (>=1.7.4,<2.0.0)",
+    "mysqlclient (>=2.2.7,<3.0.0)",
+    "dependency-injector (>=4.48.1,<5.0.0)"
 ]
 
 
